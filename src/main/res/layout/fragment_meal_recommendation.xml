@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eeah.recepeat.MealRecommendation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view_meal"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/recipe_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:tag="Photo Not Available"
+                        android:layout_above="@+id/recipe_photo"
+                        />
+
+                    <TextView
+                        android:id="@+id/recipe_photo"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="Recipe"
+                        android:textColor="#ffff"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/_txt"
+                android:text="Ingredient List:"
+                android:layout_below="@id/card_view_meal"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_alignLeft="@+id/ingredients"
+                android:layout_alignStart="@+id/ingredients"
+                android:layout_alignRight="@+id/ingredients"
+                android:layout_alignEnd="@+id/ingredients" />
+
+            <ListView
+                android:id="@+id/ingredients"
+                android:layout_width="350dp"
+                android:layout_height="210dp"
+                android:layout_alignEnd="@+id/card_view_meal"
+                android:layout_alignLeft="@+id/card_view_meal"
+                android:layout_alignRight="@+id/card_view_meal"
+                android:layout_alignStart="@+id/card_view_meal"
+                android:layout_below="@id/_txt"></ListView>
+
+            <TextView
+                android:id="@+id/calories"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_below="@+id/ingredients"
+                android:layout_alignLeft="@+id/ingredients"
+                android:layout_alignStart="@+id/ingredients"
+                android:layout_alignRight="@+id/ingredients"
+                android:layout_alignEnd="@+id/ingredients"
+                android:text="Total Calories of recipe:"
+                >
+
+            </TextView>
+            <Button
+                android:id="@+id/instructions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:linksClickable="true"
+                android:background="@color/colorAccent"
+                android:text="Go to Instructions"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffff"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/calories"
+                android:layout_alignLeft="@+id/ingredients"
+                android:layout_alignStart="@+id/ingredients"
+                android:layout_alignRight="@+id/ingredients"
+                android:layout_alignEnd="@+id/ingredients">
+            </Button>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

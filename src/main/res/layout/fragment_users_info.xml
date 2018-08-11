@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eeah.recepeat.UsersInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/basic_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="My Basic Information"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/gender_txt"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/basic_txt"
+            android:layout_margin="20dp"
+            android:hint="Gender"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/gender_txt" />
+
+        <EditText
+            android:id="@+id/age_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner"
+            android:layout_margin="20dp"
+            android:hint="Age"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/height_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/age_txt"
+            android:layout_margin="20dp"
+            android:hint="Height"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/weight_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/height_txt"
+            android:layout_margin="20dp"
+            android:hint="Weight"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Save"
+            android:textColor="#fff"
+            android:layout_below="@+id/weight_txt"
+            android:layout_alignRight="@+id/weight_txt"
+            android:layout_alignEnd="@+id/weight_txt"
+            android:layout_marginTop="23dp" />
+    </RelativeLayout>
+
+</FrameLayout>

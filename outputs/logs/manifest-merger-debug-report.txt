@@ -1,0 +1,148 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:8:22-69
+application
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:10:5-31:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\da9e17df8afa6a270a1e8c0ed488ae753586f80d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\cabd5af85b78b096a6f8358b2a59284346b2026c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\92bf7e6b56c4a8a98c7771931fb913ada92623cf\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\95fe8db8c0b966bb9b30767bbc47aed550e80251\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\cf736a5499fd0ab70f97687ce4dd5a59e4b77c9e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Saarthak Maheshwari\.android\build-cache\aba3eb8da7586c9b71dd88dfbd31051b842cfdb1\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\2ec926cd8b399011ab8bb4ff9d1398f161b38424\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\72225401b2ec055504f9eadd75a07d2d40fda9d0\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\5e29068311c55cdbdc92027228c0088088caf89e\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\749e5f435e22c3145c51a7b75b2d9440f836ffe3\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ccbe73beb7cdca865df29a8bbaa7d034fc6bce1b\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ab0744605976981f833e7aa4ca9aeeea4c707d80\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ec12d1da7d7309c81fe697621d3576886f2eb25a\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\28f94a86f27fe24526e08fa70c139c9e6fc8d77f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\1d17d8931ad2f21802a78c376ad976fb47821ae9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\856f58a2a0c0f8dfb609194f1f0f1bf54ecf04d2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\689b9879c3ea0d595bc15afc7efb8dbb47e6d294\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\c5ca455bbe0d9b425f00765efe828d49431d26ea\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\795fa58d854fa053061ff5373acf4c5a5ca782d9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Saarthak Maheshwari\.android\build-cache\3eb0f751423917e5daddd9490de12db127aefda9\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.example.eeah.recepeat.MainActivity
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:17:9-21:20
+	android:label
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:19:13-45
+	android:theme
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:18:13-41
+activity#com.example.eeah.recepeat.LoginActivity
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:24:13-57
+	android:name
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:23:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml:28:27-74
+uses-sdk
+INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\da9e17df8afa6a270a1e8c0ed488ae753586f80d\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\cabd5af85b78b096a6f8358b2a59284346b2026c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\92bf7e6b56c4a8a98c7771931fb913ada92623cf\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\95fe8db8c0b966bb9b30767bbc47aed550e80251\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\9fc87fd2dc9d6cd4fde9c4258c935259dd7a075c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\cf736a5499fd0ab70f97687ce4dd5a59e4b77c9e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Saarthak Maheshwari\.android\build-cache\aba3eb8da7586c9b71dd88dfbd31051b842cfdb1\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\2ec926cd8b399011ab8bb4ff9d1398f161b38424\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\72225401b2ec055504f9eadd75a07d2d40fda9d0\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\5e29068311c55cdbdc92027228c0088088caf89e\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\749e5f435e22c3145c51a7b75b2d9440f836ffe3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ccbe73beb7cdca865df29a8bbaa7d034fc6bce1b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ab0744605976981f833e7aa4ca9aeeea4c707d80\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ec12d1da7d7309c81fe697621d3576886f2eb25a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\28f94a86f27fe24526e08fa70c139c9e6fc8d77f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\1d17d8931ad2f21802a78c376ad976fb47821ae9\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\856f58a2a0c0f8dfb609194f1f0f1bf54ecf04d2\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\689b9879c3ea0d595bc15afc7efb8dbb47e6d294\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\c5ca455bbe0d9b425f00765efe828d49431d26ea\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\795fa58d854fa053061ff5373acf4c5a5ca782d9\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Saarthak Maheshwari\.android\build-cache\3eb0f751423917e5daddd9490de12db127aefda9\output\AndroidManifest.xml:7:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\da9e17df8afa6a270a1e8c0ed488ae753586f80d\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Saarthak Maheshwari\FitBitApp\recepeat\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\da9e17df8afa6a270a1e8c0ed488ae753586f80d\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\cabd5af85b78b096a6f8358b2a59284346b2026c\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\92bf7e6b56c4a8a98c7771931fb913ada92623cf\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\95fe8db8c0b966bb9b30767bbc47aed550e80251\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\9fc87fd2dc9d6cd4fde9c4258c935259dd7a075c\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\cf736a5499fd0ab70f97687ce4dd5a59e4b77c9e\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\2ec926cd8b399011ab8bb4ff9d1398f161b38424\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\28f94a86f27fe24526e08fa70c139c9e6fc8d77f\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\1d17d8931ad2f21802a78c376ad976fb47821ae9\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\856f58a2a0c0f8dfb609194f1f0f1bf54ecf04d2\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\689b9879c3ea0d595bc15afc7efb8dbb47e6d294\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\c5ca455bbe0d9b425f00765efe828d49431d26ea\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\795fa58d854fa053061ff5373acf4c5a5ca782d9\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\da9e17df8afa6a270a1e8c0ed488ae753586f80d\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Saarthak Maheshwari\.android\build-cache\da9e17df8afa6a270a1e8c0ed488ae753586f80d\output\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ccbe73beb7cdca865df29a8bbaa7d034fc6bce1b\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ccbe73beb7cdca865df29a8bbaa7d034fc6bce1b\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ccbe73beb7cdca865df29a8bbaa7d034fc6bce1b\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ccbe73beb7cdca865df29a8bbaa7d034fc6bce1b\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ec12d1da7d7309c81fe697621d3576886f2eb25a\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ec12d1da7d7309c81fe697621d3576886f2eb25a\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Saarthak Maheshwari\.android\build-cache\ec12d1da7d7309c81fe697621d3576886f2eb25a\output\AndroidManifest.xml:20:20-65
